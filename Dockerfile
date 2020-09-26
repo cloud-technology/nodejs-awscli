@@ -9,5 +9,5 @@ RUN mkdir /root/bin /aws; \
     pip install awscli && \
     apk --purge -v del py-pip && \
     rm /var/cache/apk/*
-ENTRYPOINT [""]
 
+ENTRYPOINT [""]
